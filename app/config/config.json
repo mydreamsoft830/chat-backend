@@ -1,0 +1,61 @@
+{
+  "development": {
+    "username": "root",
+    "password": null,
+    "database": "wispri",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "logging": false,
+    "define": {
+      "freezeTableName": true,
+      "underscored": false,
+      "returning": true
+    },
+    "pool": {
+      "max": 5,
+      "min": 0,
+      "idle": 20000,
+      "acquire": 20000
+    }
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "wispri",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "logging": false,
+    "define": {
+      "freezeTableName": true,
+      "underscored": false,
+      "returning": true
+    },
+    "pool": {
+      "max": 5,
+      "min": 0,
+      "idle": 20000,
+      "acquire": 20000
+    }
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "wispri",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "logging": false,
+    "define": {
+      "freezeTableName": true,
+      "underscored": false,
+      "returning": true
+    },
+    "pool": {
+      "max": 5,
+      "min": 0,
+      "idle": 20000,
+      "acquire": 20000
+    }
+  }
+}
+
+
